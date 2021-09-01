@@ -28,11 +28,19 @@ function submitform() {
     var note = 0, mode = 0, acci = 0, sign = 0;
     alert("Sending Json");
     
+    console.log("Hello, World!");
+
     var x = document.getElementById("note");
     note = x.elements[0].value - 2;
     mode = x.elements[1].value;
     acci = x.elements[2].value - 2;
     sign = x.elements[3].value;
+
+    console.log(note);
+    console.log(mode);
+    console.log(acci");
+    console.log(sign);
+    console.log("ok, done");
 
 
     document.getElementById("oki").innerHTML = "ok";

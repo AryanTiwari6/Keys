@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link rel="preconnect" href="https://firebasestorage.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="css/aspect-elements.css" rel="stylesheet" />
-<link href="css/aspect-style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="css/aspect-elements.css" rel="stylesheet" />
+    <link href="css/aspect-style.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+
 </head>
+
 <body id="root-container" style="margin: 0;">
 
+
+
+    <div id="content-container">
+        <div id="section-id-1-" data-element-type="section">
+            <div id="container-id-2-" data-element-type="container">
+                <div id="container-id-1-" data-element-type="container">
+                    <p id="text-id-0-" data-element-type="text">Keys Title</p>
+                    <div id="container-id-0-" data-element-type="container">
+                        <div id="container-id-7-" data-element-type="container"></div>
+                        <div id="container-id-4-" data-element-type="container">
+                            <p id="text-id-6-" data-element-type="text">Modulate quickly</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="container-id-3-" data-element-type="container"><a id="image-id-4-"
+                        data-element-type="image"><img id="element-id-20-" src="img/-project-image-4.jpeg"></a>
+                    <div id="container-id-8-" data-element-type="container">
+                        <p id="text-id-7-" data-element-type="text">About</p>
+                        <p id="text-id-2-" data-element-type="text">A new build, Preston House is an open, light filled
+                            home where the internal and external spaces have a close and refined connection, making it
+                            integral to a young growing family. <br></p><a id="button-id-0-"
+                            data-element-type="button"><span id="element-id-0-">See more</span></a>
+                    </div>
+                </div>
+                <div id="container-id-16-" data-element-type="container">
+                    <div id="container-id-11-" data-element-type="container"></div>
+                    <div id="container-id-12-" data-element-type="container"></div>
+                </div>
+
+                <div class="testbox">
+                    <form id="note" action="/action_page.php">
+                      <h1>Keys</h1>
+                      <h4>Enter the key to find it's key signature</h4>
+                      <div class="title-block">
+                        <select>
+                          <option value="title" selected>Note</option>
+                        <option value="2">C</option>
+                        <option value="4">D</option>
+                        <option value="6">E</option>
+                        <option value="1">F</option>
+                        <option value="3">G</option>
+                        <option value="5">A</option>
+                        <option value="7">B</option>
+                        </select>
+                        <select>
+                          <option value="title" selected>Mode</option>
+                        <option value="1">Lydian</option>
+                        <option value="2">Major/Ionian</option>
+                        <option value="3">Mxolydian</option>
+                        <option value="4">Dorian</option>
+                        <option value="5">Minor/Aeolian</option>
+                        <option value="6">Phrygian</option>
+                        <option value="7">Locrian</option>
+                        </select>
+                      </div>
+                      <div class="btn-block">
+                        <input value="Submit" type="button" onclick="submitform()">
+                      </div>
+                    </form>
+                  </div>
                   
-                  
-                <div id="content-container"><div id="section-id-1-" data-element-type="section"><div id="container-id-2-" data-element-type="container"><div id="container-id-1-" data-element-type="container"><p id="text-id-0-" data-element-type="text">Keys Title</p><div id="container-id-0-" data-element-type="container"><div id="container-id-7-" data-element-type="container"></div><div id="container-id-4-" data-element-type="container"><p id="text-id-6-" data-element-type="text">Modulate quickly</p></div></div></div><div id="container-id-3-" data-element-type="container"><a id="image-id-4-" data-element-type="image"><img id="element-id-20-" src="img/-project-image-4.jpeg"></a><div id="container-id-8-" data-element-type="container"><p id="text-id-7-" data-element-type="text">About</p><p id="text-id-2-" data-element-type="text">A new build, Preston House is an open, light filled home where the internal and external spaces have a close and refined connection, making it integral to a young growing family. <br></p><a id="button-id-0-" data-element-type="button"><span id="element-id-0-">See more</span></a></div></div><div id="container-id-16-" data-element-type="container"><div id="container-id-11-" data-element-type="container"></div><div id="container-id-12-" data-element-type="container"></div></div></div></div></div>
+                  <p id="container"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

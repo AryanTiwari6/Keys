@@ -67,7 +67,7 @@ html, body {
     }
     
     th, td {
-    width: 50%;
+    width: 18%;
     padding: 15px 0;
     border-bottom: 1px solid #ccc;
     text-align: center;
@@ -85,8 +85,9 @@ html, body {
     }
     .btn-block {
     margin-top: 20px;
-    width: 25%;
+    width: 50%;
     text-align: center;
+    align-self: center;
     }
     button {
     width: 150px;

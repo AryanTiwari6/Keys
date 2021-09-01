@@ -33,19 +33,19 @@ function submitform() {
     mode = x.elements[1].value;
     acci = x.elements[2].value - 2;
     sign = x.elements[3].value;
-
+    
+    alert("ok, done");
     alert(note);
     alert(mode);
-    alert(acci");
+    alert(acci);
     alert(sign);
-    alert("ok, done");
 
 
     document.getElementById("oki").innerHTML = "ok";
     alert("Hello, World!");
     alert(note);
     alert(mode);
-    alert(acci");
+    alert(acci);
     alert(sign);
     alert("ok, done");
 

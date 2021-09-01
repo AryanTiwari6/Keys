@@ -36,6 +36,6 @@ function submitform() {
 
     alert("Sending Json");
 
-    document.getElementById("result").innerHTML = note;
+    document.getElementById("result").innerHTML = sign;
 
 }

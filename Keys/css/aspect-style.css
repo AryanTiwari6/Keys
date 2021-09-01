@@ -82,7 +82,7 @@
 
 #text-id-7- { margin: unset; background-color: rgba(0, 0, 0, 0); width: 380px; letter-spacing: -0.4px; line-height: 44px; font-size: 36px; font-weight: 800; font-style: normal; }
 
-#container-id-13- { padding: 20px; background-color: #e9e8d0; flex-direction: center; align-items: flex-start; justify-content: flex-start; }
+#container-id-13- { width: 100%; padding: 20px; background-color: #e9e8d0; flex-direction: center; align-items: flex-start; justify-content: flex-start; }
 
 [data-element-type] { font-family: inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-style: normal; font-size: 18px; line-height: 26px; font-weight: 600; letter-spacing: -0.2px; color: rgb(35, 35, 35); }

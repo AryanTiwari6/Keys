@@ -19,6 +19,7 @@ function submitform() {
                 }
             }
         }
+    }
 
 
         if (flag) {

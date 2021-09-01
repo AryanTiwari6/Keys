@@ -34,6 +34,8 @@ function submitform() {
     acci = x.elements[2].value - 2;
     sign = x.elements[3].value;
 
+    alert("Sending Json");
+
     document.getElementById("utahh").innerHTML = ok;
 
 }

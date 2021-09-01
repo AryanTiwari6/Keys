@@ -8,16 +8,16 @@ function submitform() {
     var result = "";
 
     var x = document.getElementById("note");
-    var flag = true;
-    for (let i = 0; i < 4; i++) {
-        for (let j = i; j < 4; i++) {
-            if (x.elements[i].value == "title" && x.elements[j].value == "title") {
-                result = "Please select at least 3 of the 4 given fields";
-                flag = false;
-                break;
-            }
-        }
-    }
+    // var flag = true;
+    // for (let i = 0; i < 4; i++) {
+    //     for (let j = i; j < 4; i++) {
+    //         if (x.elements[i].value == "title" && x.elements[j].value == "title") {
+    //             result = "Please select at least 3 of the 4 given fields";
+    //             flag = false;
+    //             break;
+    //         }
+    //     }
+    // }
 
 
     if (flag) {

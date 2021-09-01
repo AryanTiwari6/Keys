@@ -5,6 +5,7 @@ const acci_sym = ["b", "", "#"];
 
 function submitform() {
     var k = 0, m = 0, a = 0, s = 0;
+    var result = "";
 
     var x = document.getElementById("note");
     var flag = false;
@@ -26,8 +27,6 @@ function submitform() {
         s = x.elements[3].value - 7;
         a = a_index * 7;
 
-        result = "";
-
         if (x.elements[3].value == "title") {
             s = k + a - m;
             result = "The key Signature of " + key[k + 1] + acci_sym[a_index + 1] + " " + mode[m + 1] + " is " + Math.abs(s) + " " + acci[Math.sign(s) + 1];
@@ -45,6 +44,7 @@ function submitform() {
             result = "It's " + acci[((a / 7) + 1)];
         }
     }
+
     document.getElementById("result").innerHTML = result;
 
 }

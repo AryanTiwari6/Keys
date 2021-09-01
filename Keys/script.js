@@ -36,6 +36,6 @@ function submitform() {
 
     alert("Sending Json");
 
-    document.getElementById("result").innerHTML = mode;
+    document.getElementById("result").innerHTML = acci;
 
 }

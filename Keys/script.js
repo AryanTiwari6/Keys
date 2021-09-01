@@ -34,7 +34,6 @@ function submitform() {
     acci = x.elements[2].value - 2;
     sign = x.elements[3].value;
 
-    var text = note + "<br>" + mode + "<br>" + acci + "<br>" + sign;
 
-    document.getElementById("container").innerHTML = text;
+    document.getElementById("container").innerHTML = note;
 }

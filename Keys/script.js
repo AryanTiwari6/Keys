@@ -8,19 +8,19 @@ function submitform() {
     var result = "";
 
     var x = document.getElementById("note");
-    // var flag = true;
-    // for (let i = 0; i < 4; i++) {
-    //     for (let j = i; j < 4; i++) {
-    //         if (x.elements[i].value == "title" && x.elements[j].value == "title") {
-    //             result = "Please select at least 3 of the 4 given fields";
-    //             flag = false;
-    //             break;
-    //         }
-    //     }
-    // }
+    var flag = true;
+    for (let i = 0; i < 4; i++) {
+        for (let j = i; j < 4; j++) {
+            if (x.elements[i].value == "title" && x.elements[j].value == "title") {
+                result = "Please select at least 3 of the 4 given fields";
+                flag = false;
+                break;
+            }
+        }
+    }
 
 
-    //if (flag) {
+    if (flag) {
         k = x.elements[0].value - 2;
         a_index = x.elements[1].value - 2;
         m = x.elements[2].value - 2;
@@ -43,7 +43,7 @@ function submitform() {
             a = s + m - k;
             result = "It's " + acci[((a / 7) + 1)];
         }
-    //}
+    }
 
     document.getElementById("result").innerHTML = result;
 

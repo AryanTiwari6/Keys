@@ -36,6 +36,6 @@ function submitform() {
 
     alert("Sending Json");
 
-    document.getElementById("utahh").innerHTML = mode;
+    document.getElementById("result").innerHTML = mode;
 
 }

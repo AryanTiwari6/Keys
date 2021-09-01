@@ -53,45 +53,49 @@
         </div>
         <div data-element-behavior="form" id="form-id-18-" data-element-type="section">
             <form id="container-id-13-" data-element-type="container" onsubmit="return submitAspectForm(this)"
-                data-uid="Ehub8OtRn1RQ28Q8z3toTE0luw63" data-database-id="-MiUfL_9PvJN6Tl1XS7F"><input id="input-id-14-"
-                    data-element-type="input" placeholder="Name" required="true"><input id="input-id-15-"
-                    data-element-type="input" placeholder="Email" type="email" required="true"><button
-                    id="button-id-16-" data-element-type="button" type="submit"><span
-                        id="element-id-17-">Submit</span></button></form>
+                data-uid="Ehub8OtRn1RQ28Q8z3toTE0luw63" data-database-id="-MiUfL_9PvJN6Tl1XS7F">
+                <input id="input-id-14-"data-element-type="input" placeholder="Name" required="true">
+                <input id="input-id-15-"data-element-type="input" placeholder="Email" type="email" required="true">
+                <button id="button-id-16-" data-element-type="button" type="submit">
+                    <span id="element-id-17-">Submit</span>
+                </button>
+            </form>
         </div>
+        
+        <div class="testbox">
+            <form id="note" action="/action_page.php">
+              <h1>Keys</h1>
+              <h4>Enter the key to find it's key signature</h4>
+              <div class="title-block">
+                <select>
+                  <option value="title" selected>Note</option>
+                <option value="2">C</option>
+                <option value="4">D</option>
+                <option value="6">E</option>
+                <option value="1">F</option>
+                <option value="3">G</option>
+                <option value="5">A</option>
+                <option value="7">B</option>
+                </select>
+                <select>
+                  <option value="title" selected>Mode</option>
+                <option value="1">Lydian</option>
+                <option value="2">Major/Ionian</option>
+                <option value="3">Mxolydian</option>
+                <option value="4">Dorian</option>
+                <option value="5">Minor/Aeolian</option>
+                <option value="6">Phrygian</option>
+                <option value="7">Locrian</option>
+                </select>
+              </div>
+              <div class="btn-block">
+                <input value="Submit" type="button" onclick="submitform()">
+              </div>
+            </form>
+          </div>
     </div>
 
-    <div class="testbox">
-        <form id="note" action="/action_page.php">
-          <h1>Keys</h1>
-          <h4>Enter the key to find it's key signature</h4>
-          <div class="title-block">
-            <select>
-              <option value="title" selected>Note</option>
-            <option value="2">C</option>
-            <option value="4">D</option>
-            <option value="6">E</option>
-            <option value="1">F</option>
-            <option value="3">G</option>
-            <option value="5">A</option>
-            <option value="7">B</option>
-            </select>
-            <select>
-              <option value="title" selected>Mode</option>
-            <option value="1">Lydian</option>
-            <option value="2">Major/Ionian</option>
-            <option value="3">Mxolydian</option>
-            <option value="4">Dorian</option>
-            <option value="5">Minor/Aeolian</option>
-            <option value="6">Phrygian</option>
-            <option value="7">Locrian</option>
-            </select>
-          </div>
-          <div class="btn-block">
-            <input value="Submit" type="button" onclick="submitform()">
-          </div>
-        </form>
-      </div>
+    
 
     <script src="script.js"></script>
 </body>

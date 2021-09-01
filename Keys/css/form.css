@@ -85,12 +85,11 @@ html, body {
     }
     .btn-block {
     margin-top: 20px;
-    width: 50%;
+    width: 25%;
     text-align: center;
-    align-self: center;
     }
     button {
-    width: 150px;
+    width: 300px;
     padding: 10px;
     border: none;
     -webkit-border-radius: 5px; 

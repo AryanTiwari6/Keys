@@ -33,7 +33,7 @@ html, body {
     padding: 3px;
     }
     form {
-    width: 200%;
+    width: 100%;
     padding: 20px;
     background: #e9e8d0;
     box-shadow: 0 2px 5px #ccc; 
@@ -57,7 +57,7 @@ html, body {
     padding: 7px 0;
     border-radius: 3px;
     border: 1px solid #ccc;
-    background: white;
+    background: red;
     }
     select, table {
     width: 100%;

@@ -20,7 +20,7 @@ function submitform() {
     // }
 
 
-    if (flag) {
+    //if (flag) {
         k = x.elements[0].value - 2;
         a_index = x.elements[1].value - 2;
         m = x.elements[2].value - 2;
@@ -43,7 +43,7 @@ function submitform() {
             a = s + m - k;
             result = "It's " + acci[((a / 7) + 1)];
         }
-    }
+    //}
 
     document.getElementById("result").innerHTML = result;
 

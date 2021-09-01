@@ -25,12 +25,16 @@ switch (new Date().getDay()) {
 
 
 function submitform() {
-    alert("Sending Json");
+    var note = 0;
+    var mode = 0;
+
+    alert("Fetching values");
     var x = document.getElementById("note");
-    var text = "";
-    var i;
-    for (i = 0; i < x.length; i++) {
-        text += x.elements[i].value + "<br>";
-    }
+
+    note = x.elements[0].value;
+    mode = x.elements[1].value;
+
+    var text = note + "<br>" + mode;
+
     document.getElementById("container").innerHTML = text;
 }

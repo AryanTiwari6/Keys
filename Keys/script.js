@@ -30,8 +30,8 @@ function submitform() {
 
     var x = document.getElementById("note");
     note = x.elements[0].value - 2;
-    mode = x.elements[1].value;
-    acci = x.elements[2].value - 2;
+    acci = x.elements[1].value - 2;
+    mode = x.elements[2].value;
     sign = x.elements[3].value;
 
     alert("Sending Json");

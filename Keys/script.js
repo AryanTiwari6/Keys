@@ -35,5 +35,5 @@ function submitform() {
     sign = x.elements[3].value;
 
 
-    document.getElementById("container").innerHTML = note;
+    document.getElementById("container").innerHTML = "ok";
 }

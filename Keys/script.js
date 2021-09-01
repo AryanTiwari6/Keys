@@ -35,7 +35,7 @@ function submitform() {
     sign = x.elements[3].value;
 
 
-    document.getElementById("resulthere").innerHTML = "ok";
+    document.getElementById("oki").innerHTML = "ok";
     console.log("Hello, World!");
     console.log(note);
     console.log(mode);

@@ -29,7 +29,7 @@ function submitform() {
     var mode = 0;
 
     alert("Fetching values");
-    var x = document.getElementById("note");
+    var x = document.getElementById("form");
 
     note = x.elements[0].value;
     mode = x.elements[1].value;

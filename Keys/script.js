@@ -27,8 +27,6 @@ switch (new Date().getDay()) {
 function submitform() {
     var note = 0, mode = 0, acci = 0, sign = 0;
     alert("Sending Json");
-    
-    console.log("Hello, World!");
 
     var x = document.getElementById("note");
     note = x.elements[0].value - 2;
@@ -36,19 +34,19 @@ function submitform() {
     acci = x.elements[2].value - 2;
     sign = x.elements[3].value;
 
-    console.log(note);
-    console.log(mode);
-    console.log(acci");
-    console.log(sign);
-    console.log("ok, done");
+    alert(note);
+    alert(mode);
+    alert(acci");
+    alert(sign);
+    alert("ok, done");
 
 
     document.getElementById("oki").innerHTML = "ok";
-    console.log("Hello, World!");
-    console.log(note);
-    console.log(mode);
-    console.log(acci");
-    console.log(sign);
-    console.log("ok, done");
+    alert("Hello, World!");
+    alert(note);
+    alert(mode);
+    alert(acci");
+    alert(sign);
+    alert("ok, done");
 
 }

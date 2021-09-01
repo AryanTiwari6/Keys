@@ -41,7 +41,7 @@ function submitform() {
     alert(sign);
 
 
-    document.getElementById("oki").innerHTML = "ok";
+    document.getElementById("oki").innerHTML = ok;
     alert("Hello, World!");
     alert(note);
     alert(mode);

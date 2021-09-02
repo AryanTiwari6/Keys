@@ -36,7 +36,7 @@ function submitform() {
                 if(Math.abs(s)>6) {
                     var sign = Math.sign(s);
                     s = sign * (Math.abs(s)-12);
-                    result += " or simply it is euivalent to " + Math.abs(s) + " " + acci[Math.sign(s) + 1];
+                    result += " or simply it is equivalent to " + Math.abs(s) + " " + acci[Math.sign(s) + 1];
                 }
             }
             if (x.elements[2].value == "title") {

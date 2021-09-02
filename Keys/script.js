@@ -33,7 +33,7 @@ function submitform() {
                 s = k + a - m;
                 if(Math.abs(s)>6) {
                     var sign = Math.sign(s);
-                    s = sign * (Math.abs(s)-6);
+                    s = (-1) * sign * (Math.abs(s)-12);
                 }
                 result = "The key Signature of " + key[k + 1] + acci_sym[a_index + 1] + " " + mode[m + 1] + " is " + Math.abs(s) + " " + acci[Math.sign(s) + 1];
             }

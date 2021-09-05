@@ -10,7 +10,7 @@ function submitform() {
     var x = document.getElementById("note");
     var flag = true;
 
-    if (x.elements[1].value != "title" && x.elements[2].value != "title" && x.elements[3].value != "title" && x.elements[4].value != "title") {
+    if (x.elements[0].value != "title" && x.elements[1].value != "title" && x.elements[2].value != "title" && x.elements[3].value != "title") {
         result = "Please leave one filed empty to find out it's value.";
         flag = false;
     }
